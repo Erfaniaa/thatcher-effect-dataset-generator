@@ -1,6 +1,6 @@
 # Thatcher Effect Dataset Generator
 
-Using OpenCV to apply [tatcher effect](https://en.wikipedia.org/wiki/Thatcher_effect) on [CelebA dataset](https://www.kaggle.com/jessicali9530/celeba-dataset)
+Using OpenCV to apply [thatcher effect](https://en.wikipedia.org/wiki/Thatcher_effect) on [CelebA dataset](https://www.kaggle.com/jessicali9530/celeba-dataset)
 
 ## Example
 
