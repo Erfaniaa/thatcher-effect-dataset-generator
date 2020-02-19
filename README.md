@@ -14,9 +14,10 @@ Using OpenCV to apply [Thatcher effect](https://en.wikipedia.org/wiki/Thatcher_e
 
 ## Run
 
-1. Put the dataset CSV file beside the _main.py_ file.
-2. Put the dataset image files inside _input_images_ directory.
-3. Use Python 3 to run the program:
+1. Put the dataset CSV file beside the _main.py_ file (it's already there).
+2. Put the dataset image files inside _input_images_ directory (some of them are already there).
+3. You can change _main.py_ constants if you want.
+4. Use Python 3 to run the program:
 
 ```bash
 python main.py
