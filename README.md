@@ -12,7 +12,7 @@ Using OpenCV to apply [Thatcher effect](https://en.wikipedia.org/wiki/Thatcher_e
 
 ![output 1](https://user-images.githubusercontent.com/7780269/81139360-b6919e00-8f7a-11ea-9e07-2acd7acbf30c.jpg)![output 2](https://user-images.githubusercontent.com/7780269/81139362-b85b6180-8f7a-11ea-9ae0-51e842e598a5.jpg)
 
-Make the output images upside-down to notice changes.
+Turn the output images upside-down to notice changes.
 
 ## Run
 
