@@ -1,6 +1,6 @@
 # Thatcher Effect Dataset Generator
 
-Using OpenCV to apply [Thatcher effect](https://en.wikipedia.org/wiki/Thatcher_effect) on [CelebA dataset](https://www.kaggle.com/jessicali9530/celeba-dataset)
+Using OpenCV to apply [Thatcher effect](https://en.wikipedia.org/wiki/Thatcher_effect) on a set of face images
 
 ## Example
 
@@ -10,17 +10,18 @@ Using OpenCV to apply [Thatcher effect](https://en.wikipedia.org/wiki/Thatcher_e
 
 ### Output:
 
-![output 1](https://user-images.githubusercontent.com/7780269/74758921-4170cf80-528d-11ea-99b3-a28f858442e1.png)![output 2](https://user-images.githubusercontent.com/7780269/74758946-49c90a80-528d-11ea-953b-70f4f64b4fa3.png)
+![output 1](https://user-images.githubusercontent.com/7780269/81139360-b6919e00-8f7a-11ea-9e07-2acd7acbf30c.jpg)![output 2](https://user-images.githubusercontent.com/7780269/81139362-b85b6180-8f7a-11ea-9ae0-51e842e598a5.jpg)
+
+Make the output images upside-down to notice changes.
 
 ## Run
 
-1. Put the dataset CSV file beside the _main.py_ file (it's already there).
-2. Put the dataset image files inside _input_images_ directory (some of them are already there).
-3. You can change _main.py_ constants if you want.
-4. Use Python 3 to run the program:
+1. Put some image files inside _input_images_ directory (some samples from [CelebA dataset](https://www.kaggle.com/jessicali9530/celeba-dataset) are already there).
+2. You can change _main.py_ constants if you want.
+3. Use Python 3 to run the program:
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 It reads _input_files_ directory files and writes to _output_files_ directory.
