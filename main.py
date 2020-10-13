@@ -1,9 +1,10 @@
-import pandas as pd
 from os import listdir, mkdir
 from os.path import isfile, join
-import cv2
-from facial_landmark_detection import get_image_facial_landmarks
+from math import inf
 
+from facial_landmark_detection import get_image_facial_landmarks
+import cv2
+import pandas as pd
 
 INPUT_IMAGES_DIRECTORY_PATH = "input_images"
 OUTPUT_IMAGES_DIRECTORY_PATH = "output_images"
@@ -12,12 +13,11 @@ ATTRIBUTES_CSV_DELIMITER = ","
 ATTRIBUTES_CSV_MAX_ROWS = 1000
 PRINT_LOG = True
 PRINT_LOG_PERIOD = 1
-INF = 10 ** 10
 
 
 def get_bounding_rectangle(points):
-	top_left = [INF, INF]
-	bottom_right = [-INF, -INF]
+	top_left = [inf, inf]
+	bottom_right = [-inf, -inf]
 	for point in points:
 		top_left[0] = min(top_left[0], point[1])
 		top_left[1] = min(top_left[1], point[0])
